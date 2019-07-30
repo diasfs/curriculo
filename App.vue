@@ -75,6 +75,23 @@
             </div>
         </div>
         <div class="page-break"></div>
+        <div v-for="(pp, i) in projects" :key="i">
+            <center style="padding: 1em;padding-top: 4em;">
+                <h3>Projects</h3>
+            </center>
+            <div class="columns-2 projects">
+                <div v-for="project in pp" :key="project.id">
+                    <strong>{{ project.titulo }}</strong>
+                    <br />
+                    {{ project.inicio }} - {{ project.termino }}
+                    <br />
+                    Technologies: {{ project.tecnologias.join(', ') }}
+                    <br />
+                    Responsibilities: {{ project.responsabilidades }}
+                </div>
+            </div>
+            <div class="page-break"></div>
+        </div>
         <div v-for="(clientes,index) in sites" :key="index">
             <div class="portfolio-header">
                 <h2>Portfolio</h2>
@@ -95,12 +112,15 @@
     </div>
 </template>
 <script>
-const imgs = require("img/*.png");
-console.log(imgs);
+import moment from "moment";
+import Projects from "./projects";
+
 export default {
     data() {
         return {
+            Projects,
             Sites: [
+                /*
                 {
                     title: "Studio GT",
                     link: "https://www.studiogt.com.br",
@@ -201,6 +221,7 @@ export default {
                     img: imgs["www.verticeiluminacao.com.br"],
                     tags: "PHP, MySQL, jQuery, Twig"
                 }
+                */
             ]
         };
     },
@@ -212,6 +233,22 @@ export default {
                 sites.push(Sites.slice(i, i + 6));
             }
             return sites;
+        },
+        projects() {
+            let Projects = [...this.Projects].map((project, id) => {
+                let p = { ...project };
+                p.id = id;
+                p.inicio = moment(project.inicio).format("MMMM Do YYYY");
+                p.termino = moment(project.termino).format("MMMM Do YYYY");
+                return p;
+            });
+
+            let projects = [];
+            for (let i = 0; i < Projects.length; i += 10) {
+                projects.push(Projects.slice(i, i + 10));
+            }
+            console.log(projects);
+            return projects;
         }
     }
 };
