@@ -72,16 +72,147 @@
                 <br />Studio GT, Jun 2009 - Until today
                 <br />
                 <br />Development of websites, e-commerce, systems and mobile apps.
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+            </div>
+        </div>
+        <div class="page-break"></div>
+        <div v-for="(clientes,index) in sites" :key="index">
+            <div class="portfolio-header">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="portfolio">
+                <a :href="site.link" v-for="site in clientes" :key="site.link" target="_blank">
+                    <picture>
+                        <img :src="site.img" alt />
+                    </picture>
+                    <h3>
+                        {{ site.title }}
+                        <i class="fas fa-link"></i>
+                    </h3>
+                    <p>{{ site.tags }}</p>
+                </a>
             </div>
         </div>
     </div>
 </template>
+<script>
+const imgs = require("img/*.png");
+console.log(imgs);
+export default {
+    data() {
+        return {
+            Sites: [
+                {
+                    title: "Studio GT",
+                    link: "https://www.studiogt.com.br",
+                    img: imgs["www.studiogt.com.br"],
+                    tags: "PHP, MySQL, Vue, NodeJs, GraphQL, Twig"
+                },
+                {
+                    title: "Imobiliária São Luiz",
+                    link: "https://www.saoluiz.imb.br",
+                    img: imgs["www.saoluiz.imb.br"],
+                    tags:
+                        "PHP, MySQL, Oracle, GraphQL, Rest, XML, jQuery, Twig, Vue"
+                },
+                {
+                    title: "Imobiliária Vila Rica",
+                    link: "https://www.vilarica.com.br",
+                    img: imgs["www.vilarica.com.br"],
+                    tags:
+                        "PHP, MySQL, Oracle, GraphQL, Rest, XML, jQuery, Twig, Vue"
+                },
+                {
+                    title: "amamae",
+                    link: "https://www.amamae.com.br",
+                    img: imgs["www.amamae.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig"
+                },
+                {
+                    title: "Cidepe",
+                    link: "https://www.cidepe.com.br",
+                    img: imgs["www.cidepe.com.br"],
+                    tags: "PHP, MySQL, jQuery, XML, Twig"
+                },
+                {
+                    title: "GNC Cinemas",
+                    link: "https://www.gnccinemas.com.br",
+                    img: imgs["www.gnccinemas.com.br"],
+                    tags: "PHP, MySQL, jQuery, XML, Twig"
+                },
+                {
+                    title: "Vira Lua",
+                    link: "https://www.viralua.com.br",
+                    img: imgs["www.viralua.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig, Soap, Rest"
+                },
+                {
+                    title: "Mengue Imóveis",
+                    link: "https://www.mengueimoveis.com.br",
+                    img: imgs["www.mengueimoveis.com.br"],
+                    tags: "PHP, MySQL, jQuery, Rest, Twig"
+                },
+                {
+                    title: "Onyx Lorenzoni",
+                    link: "http://www.onyxlorenzoni.com.br",
+                    img: imgs["www.onyxlorenzoni.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig"
+                },
+                {
+                    title: "Patins Rye",
+                    link: "https://www.patinsrye.com.br",
+                    img: imgs["www.patinsrye.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig, Soap, Rest"
+                },
+                {
+                    title: "Pousada Pinhão e Poesia",
+                    link: "https://www.pousadapinhaoepoesia.com.br",
+                    img: imgs["www.pousadapinhaoepoesia.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig"
+                },
+                {
+                    title: "Radimagem",
+                    link: "https://www.radimagem.com.br",
+                    img: imgs["www.radimagem.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig"
+                },
+
+                {
+                    title: "Serzzare",
+                    link: "https://www.serzzare.com.br",
+                    img: imgs["www.serzzare.com.br"],
+                    tags:
+                        "PHP, MySQL, jQuery, Twig, Soap, Rest, Vue, SVG, Backbone.js"
+                },
+                {
+                    title: "Somax",
+                    link: "https://www.somaxonline.com.br",
+                    img: imgs["www.somaxonline.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig, Soap, Rest"
+                },
+                {
+                    title: "ST Produções",
+                    link: "https://www.stproducoes.com.br",
+                    img: imgs["www.stproducoes.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig, Soap, Rest"
+                },
+                {
+                    title: "Vértice Iluminação",
+                    link: "http://www.verticeiluminacao.com.br",
+                    img: imgs["www.verticeiluminacao.com.br"],
+                    tags: "PHP, MySQL, jQuery, Twig"
+                }
+            ]
+        };
+    },
+    computed: {
+        sites() {
+            let Sites = this.Sites;
+            let sites = [];
+            for (let i = 0; i < Sites.length; i += 6) {
+                sites.push(Sites.slice(i, i + 6));
+            }
+            return sites;
+        }
+    }
+};
+</script>
