@@ -1,0 +1,257 @@
+[
+    {
+        "titulo": "Imobiliárias Vila Rica e São Luiz",
+        "inicio": "2019-04-19",
+        "termino": "2019-05-10",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "Oracle",
+            "GraphQL",
+            "Vue 2.0",
+            "Git"
+        ],
+        "responsabilidades": "Integration with real estate systems, backend development and frontend restructuring."
+    },
+    {
+        "titulo": "Connect Car",
+        "inicio": "2019-01-02",
+        "termino": "2016-01-21",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development and integration with recurring payments API."
+    },
+    {
+        "titulo": "Paula Meneghel",
+        "inicio": "2019-01-22",
+        "termino": "2019-01-26",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend Development and Payment API Integration."
+    },
+    {
+        "titulo": "Hiep Hoera",
+        "inicio": "2019-01-07",
+        "termino": "2019-01-11",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "XML"
+        ],
+        "responsabilidades": "Backend development and internal system integration."
+    },
+    {
+        "titulo": "Sabores Light",
+        "inicio": "2018-11-27",
+        "termino": "2018-12-10",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Soap"
+        ],
+        "responsabilidades": "Backend development, integration with payment and shipping APIs."
+    },
+    {
+        "titulo": "Imecal",
+        "inicio": "2018-12-07",
+        "termino": "2018-12-07",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development."
+    },
+    {
+        "titulo": "Tutti Parti",
+        "inicio": "2018-12-11",
+        "termino": "2018-12-18",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "XML"
+        ],
+        "responsabilidades": "Backend development and internal system integration."
+    },
+    {
+        "titulo": "Amamãe",
+        "inicio": "2018-11-13",
+        "termino": "2018-11-20",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Soap"
+        ],
+        "responsabilidades": "Backend Development, Payment API Integration."
+    },
+    {
+        "titulo": "Studio GT",
+        "inicio": "2018-09-12",
+        "termino": "2019-09-25",
+        "tecnologias": [
+            "PHP 5.4",
+            "NodeJs 10",
+            "MySQL 5.5",
+            "GraphQL",
+            "Vue 2.0",
+            "Git"
+        ],
+        "responsabilidades": "Backend development and frontend restructuring."
+    },
+    {
+        "titulo": "App ST Produções",
+        "inicio": "2018-06-13",
+        "termino": "2018-08-30",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "GraphQL",
+            "Vue 2.0",
+            "Git",
+            "Cordova"
+        ],
+        "responsabilidades": "Backend and frontend development, internal system integration and application store publishing."
+    },
+    {
+        "titulo": "Cidepe - Gestores",
+        "inicio": "2018-07-23",
+        "termino": "2018-07-30",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "GraphQL",
+            "Vue 2.0",
+            "PWA"
+        ],
+        "responsabilidades": "Backend development and frontend restructuring."
+    },
+    {
+        "titulo": "Penélope",
+        "inicio": "2018-06-05",
+        "termino": "2018-06-19",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Soap"
+        ],
+        "responsabilidades": "Backend development, integration with payment and shipping APIs."
+    },
+    {
+        "titulo": "Imobiliária São Luiz",
+        "inicio": "2018-05-07",
+        "termino": "2018-06-01",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Oracle"
+        ],
+        "responsabilidades": "Backend development and integration with real estate systems."
+    },
+    {
+        "titulo": "Herman Advogados",
+        "inicio": "2018-05-23",
+        "termino": "2018-05-23",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development."
+    },
+    {
+        "titulo": "Radimagem",
+        "inicio": "2018-05-07",
+        "termino": "2018-05-16",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development."
+    },
+    {
+        "titulo": "Axys Análises",
+        "inicio": "2018-04-02",
+        "termino": "2018-04-03",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development."
+    },
+    {
+        "titulo": "DiPilatti",
+        "inicio": "2017-12-07",
+        "termino": "2017-12-12",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend development and internal system integration."
+    },
+    {
+        "titulo": "Equilíbrio e Sabor",
+        "inicio": "2017-12-12",
+        "termino": "2017-12-29",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Soap"
+        ],
+        "responsabilidades": "Backend development, integration with payment and shipping APIs."
+    },
+    {
+        "titulo": "Fernanda Rosa",
+        "inicio": "2017-12-26",
+        "termino": "2018-01-04",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig"
+        ],
+        "responsabilidades": "Backend Development, Payment API Integration."
+    },
+    {
+        "titulo": "Natural Congelados",
+        "inicio": "2017-04-24",
+        "termino": "2018-05-01",
+        "tecnologias": [
+            "PHP 5.4",
+            "MySQL 5.5",
+            "jQuery",
+            "Twig",
+            "Soap"
+        ],
+        "responsabilidades": "Backend development, integration with payment and shipping APIs."
+    }
+]
