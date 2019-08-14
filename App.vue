@@ -95,7 +95,7 @@
     </div>
 </template>
 <script>
-const imgs = require("img/*.png");
+const imgs = require("img/*.jpg");
 console.log(imgs);
 export default {
     data() {
