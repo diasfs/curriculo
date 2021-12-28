@@ -12,13 +12,13 @@
             <img src="profile.jpg" class="profile" />
         </div>
         <div class="contact columns-2">
-            <div class="text-right">fabio@octopuz.com.br</div>
+            <div class="text-right">binho85@gmail.com</div>
             <div>+55 51 98466.3791</div>
         </div>
 
         <div class="columns-2">
             <div class="text-right">
-                <strong>Born</strong>: July 6, 1985 (age 34)
+                <strong>Born</strong>: July 6, 1985
             </div>
             <div>
                 <i class="fas fa-map-marker-alt"></i> Viamão / RS, Brazil.
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="page-break"></div>
-        <div v-for="(pp, i) in projects" :key="i">
+        <div v-for="(pp, i) in projects" :key="i" v-if="false">
             <center style="padding: 1em;padding-top: 4em;">
                 <h3>Projects</h3>
             </center>
@@ -92,7 +92,7 @@
             </div>
             <div class="page-break"></div>
         </div>
-        <div v-for="(clientes,index) in sites" :key="index">
+        <div v-for="(clientes,index) in sites" :key="index" v-if="false">
             <div class="portfolio-header">
                 <h2>Portfolio</h2>
             </div>
